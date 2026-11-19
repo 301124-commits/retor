@@ -1,0 +1,15 @@
+PAGINA DE RETORNO DO TIKTOK (https)
+
+O portal do TikTok nao aceita http://localhost como Redirect URI: exige https://.
+Solucao: hospedar esta pagina gratis no GitHub Pages e usar o endereco dela.
+
+1. Crie uma conta em github.com (se nao tiver) e um repositorio publico chamado, por exemplo, tiktok-retorno.
+2. Envie a pasta "callback" (com o index.html) para o repositorio (Add file > Upload files).
+3. Em Settings > Pages, escolha Deploy from a branch, branch main, pasta / (root), Save.
+4. Em 1 a 2 minutos o endereco fica:  https://SEU_USUARIO.github.io/tiktok-retorno/callback/
+5. No portal do TikTok, em Login Kit, cadastre esse endereco como Redirect URI (com a barra no final).
+6. No Estudio Vertical, aba Publicar, cole o mesmo endereco no campo "TikTok: Redirect URI (https)" e salve.
+7. Ao clicar em Conectar, autorize no navegador, copie o texto da pagina de retorno e cole na janela do app.
+
+Observacao: a pagina so mostra o endereco que o TikTok devolveu. Ela nao envia nada para lugar nenhum.
+Se o portal pedir para verificar a propriedade da URL, siga o passo "URL properties" do proprio portal.

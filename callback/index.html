@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Retorno do TikTok</title>
+<style>
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0e0e0e;color:#eee;font:16px/1.5 system-ui,sans-serif}
+main{width:min(560px,90vw)}h1{font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#ff5a1f;margin:0 0 18px}
+textarea{width:100%;box-sizing:border-box;height:120px;background:#181818;color:#eee;border:1px solid #333;padding:12px;font:13px/1.4 ui-monospace,monospace}
+button{margin-top:12px;background:#ff5a1f;color:#111;border:0;padding:12px 20px;font-weight:700;letter-spacing:.08em;cursor:pointer}
+p{color:#999;font-size:14px}
+</style></head><body><main>
+<h1>Estúdio Vertical / retorno do TikTok</h1>
+<p id="m">Copie o texto abaixo e cole no app, na janela que pediu o código.</p>
+<textarea id="t" readonly></textarea>
+<button onclick="navigator.clipboard.writeText(document.getElementById('t').value);this.textContent='COPIADO'">COPIAR</button>
+<script>document.getElementById('t').value=location.href;
+if(!/[?&]code=/.test(location.search))document.getElementById('m').textContent='Nenhum código nesta página. Volte ao app e tente conectar de novo.';</script>
+</main></body></html>

@@ -1,0 +1,14 @@
+DADOS PARA PREENCHER NO PORTAL DO TIKTOK (copie e cole)
+
+App name:        Estudio Vertical
+Category:        Photo & Video  (ou o mais proximo disponivel)
+Description:     Ferramenta pessoal que edita videos verticais e os publica nas contas do proprio criador no TikTok.
+App icon:        icone.png (1024x1024, esta pasta)
+Terms of Service URL:  https://SEU_USUARIO.github.io/tiktok-retorno/termos/
+Privacy Policy URL:    https://SEU_USUARIO.github.io/tiktok-retorno/privacidade/
+Web/Desktop URL:       https://SEU_USUARIO.github.io/tiktok-retorno/
+Redirect URI (Login Kit): https://SEU_USUARIO.github.io/tiktok-retorno/callback/
+Produtos: Login Kit + Content Posting API (Direct Post ligado)
+
+No GitHub, envie TODAS as pastas deste diretorio (callback, termos, privacidade, index.html, icone.png) para o repositorio.
+Troque SEU_USUARIO pelo seu usuario do GitHub.
